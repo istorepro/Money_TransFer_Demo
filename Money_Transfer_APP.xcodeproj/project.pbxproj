@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64403EDD1D4AA46200B3FD67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64403EDC1D4AA46200B3FD67 /* AppDelegate.swift */; };
+		64403EE21D4AA46200B3FD67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64403EE01D4AA46200B3FD67 /* Main.storyboard */; };
+		64403EE41D4AA46200B3FD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64403EE31D4AA46200B3FD67 /* Assets.xcassets */; };
+		64403EE71D4AA46200B3FD67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64403EE51D4AA46200B3FD67 /* LaunchScreen.storyboard */; };
+		64403EF21D4AA46200B3FD67 /* Money_Transfer_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64403EF11D4AA46200B3FD67 /* Money_Transfer_APPTests.swift */; };
+		64403EFD1D4AA46200B3FD67 /* Money_Transfer_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64403EFC1D4AA46200B3FD67 /* Money_Transfer_APPUITests.swift */; };
+		6458CC671D4B159D004B1865 /* EntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458CC661D4B159D004B1865 /* EntranceViewController.swift */; };
+		6458CC691D4B1687004B1865 /* SendMoneyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458CC681D4B1687004B1865 /* SendMoneyViewController.swift */; };
+		6458CC6B1D4B1972004B1865 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6458CC6A1D4B1972004B1865 /* constant.swift */; };
+		647CCC421D4C5CCA007977D8 /* FacebookLoginIcon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC411D4C5CCA007977D8 /* FacebookLoginIcon copy.png */; };
+		647CCC441D4C6119007977D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CCC431D4C6119007977D8 /* LoginViewController.swift */; };
+		647CCC461D4C72A1007977D8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 647CCC451D4C72A1007977D8 /* HomeViewController.swift */; };
+		647CCC491D4C7730007977D8 /* Icon-Small_video.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC471D4C7730007977D8 /* Icon-Small_video.png */; };
+		647CCC4A1D4C7730007977D8 /* IconSmallTvShow.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC481D4C7730007977D8 /* IconSmallTvShow.png */; };
+		647CCC4F1D4C7D10007977D8 /* homeA.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC4B1D4C7D10007977D8 /* homeA.png */; };
+		647CCC501D4C7D10007977D8 /* homeB.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC4C1D4C7D10007977D8 /* homeB.png */; };
+		647CCC511D4C7D10007977D8 /* homeIconA.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC4D1D4C7D10007977D8 /* homeIconA.png */; };
+		647CCC521D4C7D10007977D8 /* homeIconB.png in Resources */ = {isa = PBXBuildFile; fileRef = 647CCC4E1D4C7D10007977D8 /* homeIconB.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64403EEE1D4AA46200B3FD67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64403ED11D4AA46100B3FD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64403ED81D4AA46100B3FD67;
+			remoteInfo = Money_Transfer_APP;
+		};
+		64403EF91D4AA46200B3FD67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64403ED11D4AA46100B3FD67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64403ED81D4AA46100B3FD67;
+			remoteInfo = Money_Transfer_APP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		64403ED91D4AA46100B3FD67 /* Money_Transfer_APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Money_Transfer_APP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64403EDC1D4AA46200B3FD67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64403EE11D4AA46200B3FD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64403EE31D4AA46200B3FD67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64403EE61D4AA46200B3FD67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64403EE81D4AA46200B3FD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64403EED1D4AA46200B3FD67 /* Money_Transfer_APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Money_Transfer_APPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64403EF11D4AA46200B3FD67 /* Money_Transfer_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Transfer_APPTests.swift; sourceTree = "<group>"; };
+		64403EF31D4AA46200B3FD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64403EF81D4AA46200B3FD67 /* Money_Transfer_APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Money_Transfer_APPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64403EFC1D4AA46200B3FD67 /* Money_Transfer_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money_Transfer_APPUITests.swift; sourceTree = "<group>"; };
+		64403EFE1D4AA46200B3FD67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6458CC661D4B159D004B1865 /* EntranceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntranceViewController.swift; path = ../EntranceViewController.swift; sourceTree = "<group>"; };
+		6458CC681D4B1687004B1865 /* SendMoneyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMoneyViewController.swift; sourceTree = "<group>"; };
+		6458CC6A1D4B1972004B1865 /* constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		647CCC411D4C5CCA007977D8 /* FacebookLoginIcon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FacebookLoginIcon copy.png"; sourceTree = "<group>"; };
+		647CCC431D4C6119007977D8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		647CCC451D4C72A1007977D8 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		647CCC471D4C7730007977D8 /* Icon-Small_video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small_video.png"; sourceTree = "<group>"; };
+		647CCC481D4C7730007977D8 /* IconSmallTvShow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IconSmallTvShow.png; sourceTree = "<group>"; };
+		647CCC4B1D4C7D10007977D8 /* homeA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeA.png; sourceTree = "<group>"; };
+		647CCC4C1D4C7D10007977D8 /* homeB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeB.png; sourceTree = "<group>"; };
+		647CCC4D1D4C7D10007977D8 /* homeIconA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeIconA.png; sourceTree = "<group>"; };
+		647CCC4E1D4C7D10007977D8 /* homeIconB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homeIconB.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64403ED61D4AA46100B3FD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EEA1D4AA46200B3FD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EF51D4AA46200B3FD67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64403ED01D4AA46100B3FD67 = {
+			isa = PBXGroup;
+			children = (
+				64403EDB1D4AA46200B3FD67 /* Money_Transfer_APP */,
+				64403EF01D4AA46200B3FD67 /* Money_Transfer_APPTests */,
+				64403EFB1D4AA46200B3FD67 /* Money_Transfer_APPUITests */,
+				64403EDA1D4AA46100B3FD67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64403EDA1D4AA46100B3FD67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64403ED91D4AA46100B3FD67 /* Money_Transfer_APP.app */,
+				64403EED1D4AA46200B3FD67 /* Money_Transfer_APPTests.xctest */,
+				64403EF81D4AA46200B3FD67 /* Money_Transfer_APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64403EDB1D4AA46200B3FD67 /* Money_Transfer_APP */ = {
+			isa = PBXGroup;
+			children = (
+				6458CC661D4B159D004B1865 /* EntranceViewController.swift */,
+				64403EDC1D4AA46200B3FD67 /* AppDelegate.swift */,
+				64403EE01D4AA46200B3FD67 /* Main.storyboard */,
+				647CCC451D4C72A1007977D8 /* HomeViewController.swift */,
+				647CCC431D4C6119007977D8 /* LoginViewController.swift */,
+				6458CC6A1D4B1972004B1865 /* constant.swift */,
+				6458CC681D4B1687004B1865 /* SendMoneyViewController.swift */,
+				64403EE31D4AA46200B3FD67 /* Assets.xcassets */,
+				647CCC4B1D4C7D10007977D8 /* homeA.png */,
+				647CCC4C1D4C7D10007977D8 /* homeB.png */,
+				647CCC4D1D4C7D10007977D8 /* homeIconA.png */,
+				647CCC4E1D4C7D10007977D8 /* homeIconB.png */,
+				647CCC471D4C7730007977D8 /* Icon-Small_video.png */,
+				647CCC481D4C7730007977D8 /* IconSmallTvShow.png */,
+				647CCC411D4C5CCA007977D8 /* FacebookLoginIcon copy.png */,
+				64403EE51D4AA46200B3FD67 /* LaunchScreen.storyboard */,
+				64403EE81D4AA46200B3FD67 /* Info.plist */,
+			);
+			path = Money_Transfer_APP;
+			sourceTree = "<group>";
+		};
+		64403EF01D4AA46200B3FD67 /* Money_Transfer_APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				64403EF11D4AA46200B3FD67 /* Money_Transfer_APPTests.swift */,
+				64403EF31D4AA46200B3FD67 /* Info.plist */,
+			);
+			path = Money_Transfer_APPTests;
+			sourceTree = "<group>";
+		};
+		64403EFB1D4AA46200B3FD67 /* Money_Transfer_APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64403EFC1D4AA46200B3FD67 /* Money_Transfer_APPUITests.swift */,
+				64403EFE1D4AA46200B3FD67 /* Info.plist */,
+			);
+			path = Money_Transfer_APPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64403ED81D4AA46100B3FD67 /* Money_Transfer_APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64403F011D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APP" */;
+			buildPhases = (
+				64403ED51D4AA46100B3FD67 /* Sources */,
+				64403ED61D4AA46100B3FD67 /* Frameworks */,
+				64403ED71D4AA46100B3FD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Money_Transfer_APP;
+			productName = Money_Transfer_APP;
+			productReference = 64403ED91D4AA46100B3FD67 /* Money_Transfer_APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64403EEC1D4AA46200B3FD67 /* Money_Transfer_APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64403F041D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APPTests" */;
+			buildPhases = (
+				64403EE91D4AA46200B3FD67 /* Sources */,
+				64403EEA1D4AA46200B3FD67 /* Frameworks */,
+				64403EEB1D4AA46200B3FD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64403EEF1D4AA46200B3FD67 /* PBXTargetDependency */,
+			);
+			name = Money_Transfer_APPTests;
+			productName = Money_Transfer_APPTests;
+			productReference = 64403EED1D4AA46200B3FD67 /* Money_Transfer_APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64403EF71D4AA46200B3FD67 /* Money_Transfer_APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64403F071D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APPUITests" */;
+			buildPhases = (
+				64403EF41D4AA46200B3FD67 /* Sources */,
+				64403EF51D4AA46200B3FD67 /* Frameworks */,
+				64403EF61D4AA46200B3FD67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64403EFA1D4AA46200B3FD67 /* PBXTargetDependency */,
+			);
+			name = Money_Transfer_APPUITests;
+			productName = Money_Transfer_APPUITests;
+			productReference = 64403EF81D4AA46200B3FD67 /* Money_Transfer_APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64403ED11D4AA46100B3FD67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "serge kone Dossongui";
+				TargetAttributes = {
+					64403ED81D4AA46100B3FD67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6X2QPMDZB2;
+					};
+					64403EEC1D4AA46200B3FD67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 64403ED81D4AA46100B3FD67;
+					};
+					64403EF71D4AA46200B3FD67 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 64403ED81D4AA46100B3FD67;
+					};
+				};
+			};
+			buildConfigurationList = 64403ED41D4AA46100B3FD67 /* Build configuration list for PBXProject "Money_Transfer_APP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64403ED01D4AA46100B3FD67;
+			productRefGroup = 64403EDA1D4AA46100B3FD67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64403ED81D4AA46100B3FD67 /* Money_Transfer_APP */,
+				64403EEC1D4AA46200B3FD67 /* Money_Transfer_APPTests */,
+				64403EF71D4AA46200B3FD67 /* Money_Transfer_APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64403ED71D4AA46100B3FD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647CCC421D4C5CCA007977D8 /* FacebookLoginIcon copy.png in Resources */,
+				64403EE71D4AA46200B3FD67 /* LaunchScreen.storyboard in Resources */,
+				647CCC491D4C7730007977D8 /* Icon-Small_video.png in Resources */,
+				647CCC4A1D4C7730007977D8 /* IconSmallTvShow.png in Resources */,
+				64403EE41D4AA46200B3FD67 /* Assets.xcassets in Resources */,
+				647CCC511D4C7D10007977D8 /* homeIconA.png in Resources */,
+				647CCC521D4C7D10007977D8 /* homeIconB.png in Resources */,
+				64403EE21D4AA46200B3FD67 /* Main.storyboard in Resources */,
+				647CCC4F1D4C7D10007977D8 /* homeA.png in Resources */,
+				647CCC501D4C7D10007977D8 /* homeB.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EEB1D4AA46200B3FD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EF61D4AA46200B3FD67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64403ED51D4AA46100B3FD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458CC691D4B1687004B1865 /* SendMoneyViewController.swift in Sources */,
+				6458CC671D4B159D004B1865 /* EntranceViewController.swift in Sources */,
+				64403EDD1D4AA46200B3FD67 /* AppDelegate.swift in Sources */,
+				647CCC441D4C6119007977D8 /* LoginViewController.swift in Sources */,
+				6458CC6B1D4B1972004B1865 /* constant.swift in Sources */,
+				647CCC461D4C72A1007977D8 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EE91D4AA46200B3FD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64403EF21D4AA46200B3FD67 /* Money_Transfer_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64403EF41D4AA46200B3FD67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64403EFD1D4AA46200B3FD67 /* Money_Transfer_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64403EEF1D4AA46200B3FD67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64403ED81D4AA46100B3FD67 /* Money_Transfer_APP */;
+			targetProxy = 64403EEE1D4AA46200B3FD67 /* PBXContainerItemProxy */;
+		};
+		64403EFA1D4AA46200B3FD67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64403ED81D4AA46100B3FD67 /* Money_Transfer_APP */;
+			targetProxy = 64403EF91D4AA46200B3FD67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64403EE01D4AA46200B3FD67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64403EE11D4AA46200B3FD67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64403EE51D4AA46200B3FD67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64403EE61D4AA46200B3FD67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64403EFF1D4AA46200B3FD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		64403F001D4AA46200B3FD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64403F021D4AA46200B3FD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Money_Transfer_APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		64403F031D4AA46200B3FD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Money_Transfer_APP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		64403F051D4AA46200B3FD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Money_Transfer_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money_Transfer_APP.app/Money_Transfer_APP";
+			};
+			name = Debug;
+		};
+		64403F061D4AA46200B3FD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Money_Transfer_APPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Money_Transfer_APP.app/Money_Transfer_APP";
+			};
+			name = Release;
+		};
+		64403F081D4AA46200B3FD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Money_Transfer_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Money_Transfer_APP;
+			};
+			name = Debug;
+		};
+		64403F091D4AA46200B3FD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Money_Transfer_APPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "skdossongui.com.Money-Transfer-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Money_Transfer_APP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64403ED41D4AA46100B3FD67 /* Build configuration list for PBXProject "Money_Transfer_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64403EFF1D4AA46200B3FD67 /* Debug */,
+				64403F001D4AA46200B3FD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64403F011D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64403F021D4AA46200B3FD67 /* Debug */,
+				64403F031D4AA46200B3FD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64403F041D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64403F051D4AA46200B3FD67 /* Debug */,
+				64403F061D4AA46200B3FD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64403F071D4AA46200B3FD67 /* Build configuration list for PBXNativeTarget "Money_Transfer_APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64403F081D4AA46200B3FD67 /* Debug */,
+				64403F091D4AA46200B3FD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64403ED11D4AA46100B3FD67 /* Project object */;
+}
